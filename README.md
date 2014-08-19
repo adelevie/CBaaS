@@ -15,6 +15,8 @@ $ npm install
 $ node server.js
 ```
 
+You'll need access to a MongoDB database. The default connection string is `mongodb://localhost:27017/mydb`. You can either ensure you have a local MongoDB database called `mydb` running at `localhost:27017`, OR you can edit `config.js` to use a different connection string.
+
 ### REST API
 
 The local server runs at `http://localhost:8080` by default. The base URL is `http://localhost:8080/1` (`1` is the API version).

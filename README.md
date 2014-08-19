@@ -2,7 +2,7 @@
 
 Cloud Backend as a Service
 
-An easy-to-install, flexible REST API. Data is schemaless and new columns can be added on the fly. The API was heavily inspired by [Parse.com's REST API](https://parse.com/docs/rest) (spefically its wonderful [objects API](https://parse.com/docs/rest#objects)).
+An easy-to-install, flexible REST API. Data is schemaless and new columns can be added on the fly. The API was heavily inspired by [Parse.com's REST API](https://parse.com/docs/rest) (specifically its wonderful [objects API](https://parse.com/docs/rest#objects)).
 
 ![Sea Baas](https://raw.githubusercontent.com/adelevie/CBaaS/master/img/baas.png)
 

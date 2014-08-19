@@ -4,13 +4,15 @@ Cloud Backend as a Service
 
 An easy-to-install, flexible REST API. Data is schemaless and new columns can be added on the fly. The API was heavily inspired by [Parse.com's REST API](https://parse.com/docs/rest) (spefically its wonderful [objects API](https://parse.com/docs/rest#objects)).
 
+![Sea Baas](https://raw.githubusercontent.com/adelevie/CBaaS/master/img/baas.png)
+
 ## Usage
 
 Fork and clone.
 
 ```sh
 $ npm install
-$ node server
+$ node server.js
 ```
 
 ### REST API
@@ -55,6 +57,12 @@ Query for `object`s:
 GET /classes/MyClass/?where='{"score":3000}'
 GET /classes/MyClass/?where='{"score":{"$gt":42}}'
 GET /classes/MyClass/?where='{"score":{"$gt":40, "$lt":3000}}'
+```
+
+Delete an `object`:
+
+```
+DELETE /classes/MyClass/<objectId>
 ```
 
 #### Caveats
